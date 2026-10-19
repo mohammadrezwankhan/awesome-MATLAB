@@ -1,0 +1,93 @@
+{
+  "repository": "awesome-MATLAB",
+  "domain": "DOMAIN_D",
+  "title": "Awesome MATLAB & Simulink Ecosystem",
+  "version": "2.0.0",
+  "author": "Mohammad Rezwan Khan",
+  "lessons": [
+    {
+      "id": "L01",
+      "title": "Model-Based Design & Control System Toolbox Directory",
+      "level": "Beginner",
+      "duration": "30 mins",
+      "config_file": "ecosystem/control_toolboxes.json",
+      "summary": "Discover battle-tested open-source libraries for Kalman filtering, state estimation, PID autotuning, and Model Predictive Control.",
+      "inputs": [
+        "Curated GitHub toolbox list",
+        "Compatibility matrix (R2020b to R2026a)"
+      ],
+      "parameters": {
+        "ToolboxCount": 85,
+        "LicenseFilters": [
+          "MIT",
+          "BSD-3",
+          "Apache-2.0"
+        ]
+      },
+      "checkpoints": [
+        "Inspect unit test coverage of top libraries",
+        "Launch sample MPC script directly in MATLAB"
+      ]
+    },
+    {
+      "id": "L02",
+      "title": "Simscape Physical Modeling & Co-Simulation Blocks",
+      "level": "Intermediate",
+      "duration": "45 mins",
+      "config_file": "ecosystem/simscape_blocks.json",
+      "summary": "Explore multi-domain physical modeling toolboxes spanning electrical, thermal, hydraulic, and mechanical driveline domains.",
+      "inputs": [
+        "Simscape Foundation library components",
+        "Custom specialized blocksets"
+      ],
+      "parameters": {
+        "SolverType": "Variable-Step (daessc)",
+        "Tolerance": 0.0001
+      },
+      "checkpoints": [
+        "Verify physical conservation across domain interfaces",
+        "Evaluate speedup from code generation (Simulink Coder)"
+      ]
+    },
+    {
+      "id": "L03",
+      "title": "High-Performance Computing, Parallel Computing & GPU Acceleration",
+      "level": "Advanced",
+      "duration": "60 mins",
+      "config_file": "ecosystem/hpc_parallel.json",
+      "summary": "Best practices for vectorization, parfor parallel loops, GPUArray CUDA acceleration, and MEX C++ compiling.",
+      "inputs": [
+        "Benchmarking scripts (matrix multiplication, ODE integration)",
+        "Hardware configuration metadata"
+      ],
+      "parameters": {
+        "WorkerThreads": 8,
+        "CUDACores": 2048
+      },
+      "checkpoints": [
+        "Achieve 12x speedup via gpuArray",
+        "Profile memory allocations with MATLAB Profiler"
+      ]
+    },
+    {
+      "id": "L04",
+      "title": "Continuous Integration & Automated Testing for MATLAB Repositories",
+      "level": "Production",
+      "duration": "60 mins",
+      "config_file": "ecosystem/ci_testing_actions.json",
+      "summary": "Configure GitHub Actions using matlab-actions/run-tests with code coverage badges and Cobertura XML test reporting.",
+      "inputs": [
+        ".github/workflows/matlab-tests.yml",
+        "MATLAB Unit Test framework scripts"
+      ],
+      "parameters": {
+        "FailOnTestFailure": true,
+        "CoverageThreshold_pct": 85.0
+      },
+      "checkpoints": [
+        "Pass automated headless CI execution on GitHub Actions runner",
+        "Generate interactive badge metrics"
+      ]
+    }
+  ]
+}
