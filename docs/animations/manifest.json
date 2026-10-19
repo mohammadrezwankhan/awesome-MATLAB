@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "repository": "awesome-MATLAB",
+  "preserved_current_commit": "bb9c6ca664957ea7c9dbbd6676d8b8ce7d91ff41",
+  "animations": [
+    {
+      "kind": "image",
+      "title": "Original floating-layer SVG",
+      "badge": "Earlier animated media",
+      "description": "Floating isometric tiers, pulsing circuits, and flowing dashed traces from the earlier repository hero.",
+      "format": "Animated SVG",
+      "preview": "media/hero-25d-54447d2d4385.svg",
+      "preview_sha256": "aa3df6a931db24de0acb616cd9a81224e6ffce2d07b27e3ca481c98c5269facc",
+      "motion_identity": "54447d2d4385823d30868a73b991bfa00e531a474378dc67a3cce411474f820b",
+      "sources": [
+        {
+          "path": "assets/hero-25d.svg",
+          "commit": "0ba508dd2e23f0721b692d4e73961083ac27a8c6",
+          "sha256": "c3a83fa3ae9f866d4f5c9f768ea05084dd58047dc4d1f7e7708f363d76bfe5ca",
+          "blob": "02627b0f32e91389a0f9d9336a2039a8644b7bd7",
+          "url": "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/0ba508dd2e23f0721b692d4e73961083ac27a8c6/assets/hero-25d.svg"
+        },
+        {
+          "path": "assets/hero-25d.svg",
+          "commit": "e703149a0e4dd75eb345708f24452c73ddd4c9ff",
+          "sha256": "2d17cc66cc470da47ccfe17c4431168c00676f787a115d96a21ccd7e43a58b3a",
+          "blob": "821f3715f89ab22a669c35f58afd619d69175688",
+          "url": "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/e703149a0e4dd75eb345708f24452c73ddd4c9ff/assets/hero-25d.svg"
+        }
+      ]
+    },
+    {
+      "kind": "waveform",
+      "title": "Original interactive waveform",
+      "badge": "Previous dashboard animation",
+      "description": "The earlier 2.5D perspective card and its moving waveform, with the original visual formulas and sliders.",
+      "preview": "waveform.html",
+      "preview_sha256": "659732d8812257bd62e675c0c0e18b1a22b107c838c70629672475f68a3147eb",
+      "sources": [
+        {
+          "path": "docs/index.html",
+          "commit": "0ba508dd2e23f0721b692d4e73961083ac27a8c6",
+          "blob": "144b4e8a6e1f7e1991e88d3e414928cdecbc7c50",
+          "sha256": "e1bd939634b19bdcb72d148996b691b53f6c29c2b327db950d998272812accd0",
+          "url": "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/0ba508dd2e23f0721b692d4e73961083ac27a8c6/docs/index.html"
+        },
+        {
+          "path": "docs/index.html",
+          "commit": "e703149a0e4dd75eb345708f24452c73ddd4c9ff",
+          "blob": "e826819c6386234ee4bf5d62258ac181253d21ce",
+          "sha256": "cbdfe7f96a885e6daa67221d1924a1e26ae5dd570e49e0b3fe8d0f93a11f0bd0",
+          "url": "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/e703149a0e4dd75eb345708f24452c73ddd4c9ff/docs/index.html"
+        }
+      ]
+    }
+  ],
+  "native_links": [],
+  "historical_source_links": []
+}
