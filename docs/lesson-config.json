@@ -1,93 +1,304 @@
 {
-  "repository": "awesome-MATLAB",
-  "domain": "DOMAIN_D",
-  "title": "Awesome MATLAB & Simulink Ecosystem",
-  "version": "2.0.0",
-  "author": "Mohammad Rezwan Khan",
-  "lessons": [
+  "$schema": "./lesson-config.schema.json",
+  "schema_version": "1.0",
+  "repository": {
+    "owner": "mohammadrezwankhan",
+    "slug": "awesome-MATLAB",
+    "name": "awesome-MATLAB",
+    "title": "MATLAB Tool Discovery Lab",
+    "url": "https://github.com/mohammadrezwankhan/awesome-MATLAB",
+    "default_branch": "main",
+    "description": "Study MATLAB tools and learn to compare step-response assumptions, numerical methods and control models before adoption.",
+    "summary": "A forked resource directory for MATLAB software, toolboxes, and learning materials. A second-order response explorer connects model behavior to tool-selection questions.",
+    "audience": "Students and engineers selecting MATLAB resources for a reproducible numerical task.",
+    "topics": [
+      "matlab",
+      "simulink",
+      "awesome-list",
+      "scientific-computing",
+      "numerical-methods",
+      "signal-processing",
+      "control-systems",
+      "optimization",
+      "machine-learning",
+      "data-analysis",
+      "toolboxes",
+      "engineering",
+      "simulation",
+      "open-source",
+      "reproducible-research"
+    ],
+    "source_paths": [
+      "README.md",
+      "Contributing.md",
+      "license.md"
+    ],
+    "is_fork": true,
+    "upstream": "https://github.com/mikecroucher/awesome-MATLAB"
+  },
+  "domain": {
+    "id": "D",
+    "name": "Simulation and digital twins",
+    "primary": "#FF6D00",
+    "secondary": "#00B0FF",
+    "surface": "#1A1412",
+    "glow": "rgba(255,109,0,0.35)"
+  },
+  "model": {
+    "title": "Tool selection · synthetic step-response explorer",
+    "timeUnit": "s",
+    "horizon": 20,
+    "parameters": [
+      {
+        "key": "setpoint",
+        "label": "Step target",
+        "unit": "units",
+        "min": 10,
+        "max": 100,
+        "step": 5,
+        "default": 60,
+        "calibration": "Illustrative input; verified against the declared analytical model, not field measurements."
+      },
+      {
+        "key": "damping",
+        "label": "Damping ratio",
+        "unit": "ζ",
+        "min": 0.1,
+        "max": 2,
+        "step": 0.05,
+        "default": 0.5,
+        "calibration": "Illustrative input; verified against the declared analytical model, not field measurements."
+      },
+      {
+        "key": "naturalFrequency",
+        "label": "Natural frequency",
+        "unit": "rad/s",
+        "min": 0.2,
+        "max": 3,
+        "step": 0.1,
+        "default": 1,
+        "calibration": "Illustrative input; verified against the declared analytical model, not field measurements."
+      },
+      {
+        "key": "gain",
+        "label": "Steady-state gain",
+        "unit": "×",
+        "min": 0.5,
+        "max": 1.5,
+        "step": 0.05,
+        "default": 1,
+        "calibration": "Illustrative input; verified against the declared analytical model, not field measurements."
+      }
+    ],
+    "metrics": [
+      {
+        "key": "output",
+        "label": "System output",
+        "unit": "units",
+        "decimals": 2
+      },
+      {
+        "key": "error",
+        "label": "Tracking error",
+        "unit": "units",
+        "decimals": 2
+      },
+      {
+        "key": "velocity",
+        "label": "Output rate",
+        "unit": "units/s",
+        "decimals": 2
+      },
+      {
+        "key": "overshootPct",
+        "label": "Theoretical overshoot",
+        "unit": "%",
+        "decimals": 1
+      }
+    ],
+    "equation": "y″ + 2ζωₙy′ + ωₙ²y = Kωₙ²r. Closed-form unit-step response is evaluated for underdamped, critical, and overdamped regimes.",
+    "assumptions": [
+      "A linear time-invariant second-order system starts at rest.",
+      "No transport delay, saturation, sensor noise, or discrete controller is represented.",
+      "Overshoot is relative to the final K·r level; tracking error remains relative to the requested r.",
+      "The directory is a fork of mikecroucher/awesome-MATLAB and keeps its CC BY-NC-SA 4.0 license.",
+      "Linked tools have independent versions, dependencies, and licenses; listing does not establish suitability or maintenance.",
+      "The toy system has no hardware plant, converter, sensor, or measured parameter identification."
+    ],
+    "kind": "control",
+    "introduction": "The browser solves a small analytic second-order system. It does not execute MATLAB or any linked toolbox; the response is a common example for deciding what capabilities to investigate.",
+    "calibration_status": "Uncalibrated synthetic teaching proxy"
+  },
+  "modules": [
     {
-      "id": "L01",
-      "title": "Model-Based Design & Control System Toolbox Directory",
-      "level": "Beginner",
-      "duration": "30 mins",
-      "config_file": "ecosystem/control_toolboxes.json",
-      "summary": "Discover battle-tested open-source libraries for Kalman filtering, state estimation, PID autotuning, and Model Predictive Control.",
-      "inputs": [
-        "Curated GitHub toolbox list",
-        "Compatibility matrix (R2020b to R2026a)"
+      "id": "module-1",
+      "title": "Translate a question into a tool requirement",
+      "objective": "Connect a model equation and expected outputs to the relevant resource category.",
+      "minutes": 12,
+      "steps": [
+        "Read the directory categories for learning, optimization, model reduction, and figure creation.",
+        "Apply the unit-gain response with damping 0.5 and natural frequency 1 rad/s.",
+        "Run to 20 seconds and distinguish tracking error from theoretical overshoot."
       ],
-      "parameters": {
-        "ToolboxCount": 85,
-        "LicenseFilters": [
-          "MIT",
-          "BSD-3",
-          "Apache-2.0"
-        ]
+      "preset": {
+        "setpoint": 60,
+        "damping": 0.5,
+        "naturalFrequency": 1,
+        "gain": 1
       },
       "checkpoints": [
-        "Inspect unit test coverage of top libraries",
-        "Launch sample MPC script directly in MATLAB"
-      ]
+        {
+          "label": "Theoretical overshoot for damping 0.5",
+          "metric": "overshootPct",
+          "operator": "==",
+          "expected": 16.303353,
+          "tolerance": 0.02,
+          "atTime": 20
+        },
+        {
+          "label": "Settled output approaches the target",
+          "metric": "output",
+          "operator": "==",
+          "expected": 60.001458,
+          "tolerance": 0.02,
+          "atTime": 20
+        }
+      ],
+      "reflection": "Would solving this closed-form teaching problem require a specialist toolbox? What feature would justify one?",
+      "source_paths": [
+        "README.md"
+      ],
+      "level": "Foundation"
     },
     {
-      "id": "L02",
-      "title": "Simscape Physical Modeling & Co-Simulation Blocks",
-      "level": "Intermediate",
-      "duration": "45 mins",
-      "config_file": "ecosystem/simscape_blocks.json",
-      "summary": "Explore multi-domain physical modeling toolboxes spanning electrical, thermal, hydraulic, and mechanical driveline domains.",
-      "inputs": [
-        "Simscape Foundation library components",
-        "Custom specialized blocksets"
+      "id": "module-2",
+      "title": "Compare numerical behavior before features",
+      "objective": "Identify how damping changes the response while the requested target stays fixed.",
+      "minutes": 15,
+      "steps": [
+        "Keep the target, frequency, and gain fixed.",
+        "Change damping to 0.2 and predict a larger or smaller overshoot before running.",
+        "Use the plot to frame a concrete example you could reproduce in a candidate MATLAB tool."
       ],
-      "parameters": {
-        "SolverType": "Variable-Step (daessc)",
-        "Tolerance": 0.0001
+      "preset": {
+        "setpoint": 60,
+        "damping": 0.2,
+        "naturalFrequency": 1,
+        "gain": 1
       },
       "checkpoints": [
-        "Verify physical conservation across domain interfaces",
-        "Evaluate speedup from code generation (Simulink Coder)"
-      ]
+        {
+          "label": "Underdamped theoretical overshoot",
+          "metric": "overshootPct",
+          "operator": "==",
+          "expected": 52.66206,
+          "tolerance": 0.02,
+          "atTime": 20
+        },
+        {
+          "label": "20-second response remains reproducible",
+          "metric": "output",
+          "operator": "==",
+          "expected": 59.040892,
+          "tolerance": 0.02,
+          "atTime": 20
+        }
+      ],
+      "reflection": "Why is a screenshot of a curve insufficient to compare solvers unless initial conditions and parameter values are included?",
+      "source_paths": [
+        "README.md"
+      ],
+      "level": "Parameter study"
     },
     {
-      "id": "L03",
-      "title": "High-Performance Computing, Parallel Computing & GPU Acceleration",
-      "level": "Advanced",
-      "duration": "60 mins",
-      "config_file": "ecosystem/hpc_parallel.json",
-      "summary": "Best practices for vectorization, parfor parallel loops, GPUArray CUDA acceleration, and MEX C++ compiling.",
-      "inputs": [
-        "Benchmarking scripts (matrix multiplication, ODE integration)",
-        "Hardware configuration metadata"
+      "id": "module-3",
+      "title": "Check a limiting case",
+      "objective": "Use critical damping as an analytic reference for a tool evaluation.",
+      "minutes": 12,
+      "steps": [
+        "Set damping to 1 while retaining unit gain and 1 rad/s natural frequency.",
+        "Predict the absence of overshoot and run to the fixed horizon.",
+        "Record the equation, units, and tolerances that a MATLAB reproduction should satisfy."
       ],
-      "parameters": {
-        "WorkerThreads": 8,
-        "CUDACores": 2048
+      "preset": {
+        "setpoint": 60,
+        "damping": 1,
+        "naturalFrequency": 1,
+        "gain": 1
       },
       "checkpoints": [
-        "Achieve 12x speedup via gpuArray",
-        "Profile memory allocations with MATLAB Profiler"
-      ]
+        {
+          "label": "Critical damping has zero theoretical overshoot",
+          "metric": "overshootPct",
+          "operator": "==",
+          "expected": 0,
+          "tolerance": 0.02,
+          "atTime": 20
+        },
+        {
+          "label": "20-second tracking error is below 0.01",
+          "metric": "error",
+          "operator": "<",
+          "expected": 0.01,
+          "tolerance": 0.02,
+          "atTime": 20
+        }
+      ],
+      "reflection": "How would an analytic reference case help you decide whether an apparent difference is a solver issue or a configuration issue?",
+      "source_paths": [
+        "README.md"
+      ],
+      "level": "Stress test"
     },
     {
-      "id": "L04",
-      "title": "Continuous Integration & Automated Testing for MATLAB Repositories",
-      "level": "Production",
-      "duration": "60 mins",
-      "config_file": "ecosystem/ci_testing_actions.json",
-      "summary": "Configure GitHub Actions using matlab-actions/run-tests with code coverage badges and Cobertura XML test reporting.",
-      "inputs": [
-        ".github/workflows/matlab-tests.yml",
-        "MATLAB Unit Test framework scripts"
+      "id": "module-4",
+      "title": "Package a reviewable resource recommendation",
+      "objective": "Include model scope, dependencies, reproducibility, and license in a recommendation.",
+      "minutes": 18,
+      "steps": [
+        "Use damping 0.7, frequency 1.5 rad/s, and gain 0.8.",
+        "Predict the nonzero steady-state tracking error before running.",
+        "Read Contributing.md and license.md; describe the candidate tool with its own terms and a minimal reproduction plan."
       ],
-      "parameters": {
-        "FailOnTestFailure": true,
-        "CoverageThreshold_pct": 85.0
+      "preset": {
+        "setpoint": 60,
+        "damping": 0.7,
+        "naturalFrequency": 1.5,
+        "gain": 0.8
       },
       "checkpoints": [
-        "Pass automated headless CI execution on GitHub Actions runner",
-        "Generate interactive badge metrics"
-      ]
+        {
+          "label": "Final output reflects the 0.8 gain",
+          "metric": "output",
+          "operator": "==",
+          "expected": 48,
+          "tolerance": 0.02,
+          "atTime": 20
+        },
+        {
+          "label": "Tracking error remains near 12 units",
+          "metric": "error",
+          "operator": "==",
+          "expected": 12,
+          "tolerance": 0.03,
+          "atTime": 20
+        }
+      ],
+      "reflection": "Write a recommendation that distinguishes a directory citation, a tool capability claim, and a result you personally reproduced.",
+      "source_paths": [
+        "README.md",
+        "Contributing.md",
+        "license.md"
+      ],
+      "level": "Transfer to source"
     }
-  ]
+  ],
+  "source": {
+    "commit": "9b402cc7a0330e1a88ad177e338d1c67264b27e5",
+    "audited_at": "2026-10-19T08:39:24Z",
+    "url": "https://github.com/mohammadrezwankhan/awesome-MATLAB/tree/9b402cc7a0330e1a88ad177e338d1c67264b27e5",
+    "calibration_status": "synthetic-analytical-fixtures",
+    "scope": "This browser lab is a standalone teaching approximation. Use the linked source for the project implementation."
+  },
+  "dashboard_url": "https://mohammadrezwankhan.github.io/awesome-MATLAB/"
 }

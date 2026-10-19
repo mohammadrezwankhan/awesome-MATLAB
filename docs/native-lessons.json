@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "repository": {
+    "name": "awesome-MATLAB",
+    "name_with_owner": "mohammadrezwankhan/awesome-MATLAB",
+    "url": "https://github.com/mohammadrezwankhan/awesome-MATLAB"
+  },
+  "native_source": {
+    "commit": "0ba508dd2e23f0721b692d4e73961083ac27a8c6",
+    "url": "https://github.com/mohammadrezwankhan/awesome-MATLAB/tree/0ba508dd2e23f0721b692d4e73961083ac27a8c6",
+    "source_path_override": null
+  },
+  "browser_lab_package_provenance": {
+    "commit": "9b402cc7a0330e1a88ad177e338d1c67264b27e5",
+    "url": "https://github.com/mohammadrezwankhan/awesome-MATLAB/tree/9b402cc7a0330e1a88ad177e338d1c67264b27e5",
+    "scope": "This browser lab is a standalone teaching approximation. Use the linked source for the project implementation.",
+    "calibration_status": "synthetic-analytical-fixtures",
+    "config_path": "docs/lesson-config.json"
+  },
+  "native_catalog_source": "Tracked Markdown in source lesson, example, study-case, concept, model, and documentation paths.",
+  "native_material_count": 1,
+  "reproduction_command_count": 0,
+  "materials": [
+    {
+      "id": "doc-8ec9a00bfd09",
+      "title": "Awesome MATLAB  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "path": "README.md",
+      "line": 1,
+      "source_paths": [
+        "README.md"
+      ],
+      "source_url": "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/9b402cc7a0330e1a88ad177e338d1c67264b27e5/README.md#L1",
+      "source_revision": "9b402cc7a0330e1a88ad177e338d1c67264b27e5",
+      "source_kind": "historical-reconciled-readme",
+      "source_label": "Historical README/source guide at 9b402cc7a033",
+      "catalog_url": null,
+      "native_url": null,
+      "excerpt": "A curated list of awesome MATLAB toolboxes, applications, software and resources.",
+      "type": "Native overview",
+      "section": "question",
+      "tags": [
+        "native-reading"
+      ],
+      "track": null,
+      "lesson_id": null,
+      "source_blob_path": "README.md",
+      "source_blob_sha256": "b8a36adddd43a926a456a832ef06a8ee544c7a5d28683de1166b81d7cd9f6771",
+      "source_blob_retrieval": "git-show",
+      "source_blob_cache": null
+    }
+  ],
+  "commands": [],
+  "engineering_curriculum_exclusions": [],
+  "visuals": {
+    "mapped_diagrams": [],
+    "section_banners": [
+      "section-01-question.svg",
+      "section-02-equations.svg",
+      "section-03-reproduce.svg",
+      "section-04-verification.svg",
+      "section-05-scope.svg"
+    ]
+  },
+  "native_document_banner_insertions": [],
+  "native_document_banner_audit": {
+    "schema_version": 1,
+    "eligibility_rule": "Tracked indexed Markdown in an examples, tutorials, lessons, studies, study-cases, concepts or notes directory, or whose path/title explicitly names a lesson, tutorial, example, walkthrough, study case or study. Banners are based only on existing semantic heading text, never directory names.",
+    "eligible_document_count": 0,
+    "lesson_document_candidates": 0,
+    "modified_document_count": 0,
+    "banner_insertion_count": 0,
+    "audit_gap_count": 0,
+    "banners": [],
+    "audit_gaps": [],
+    "explicit_exclusions": []
+  },
+  "dashboard": {
+    "browser_lab_is_surrogate": true,
+    "native_execution_in_browser": false,
+    "localStorage_or_existing_dashboard_scripts_preserved": true
+  }
+}

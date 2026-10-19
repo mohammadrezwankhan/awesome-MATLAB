@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "repository": "mohammadrezwankhan/awesome-MATLAB",
+  "display_name": "MATLAB · Resource Navigator",
+  "description": "An attributed MATLAB resource-list fork with a guided route from learning materials to useful contributions.",
+  "domain": "DOMAIN_D",
+  "theme": {
+    "accent": "#FF6D00",
+    "secondary": "#00B0FF",
+    "surface": "#1A1412",
+    "glow": "rgba(255, 109, 0, 0.35)",
+    "label": "Simulation & digital twins",
+    "short": "Simulation"
+  },
+  "repo_type": "curated-list-fork",
+  "source_revision": "9b402cc7a0330e1a88ad177e338d1c67264b27e5",
+  "source_snapshot_date": "2026-10-19",
+  "repo_url": "https://github.com/mohammadrezwankhan/awesome-MATLAB",
+  "homepage": null,
+  "upstream": "mikecroucher/awesome-MATLAB",
+  "lessons": [
+    {
+      "id": "path-01",
+      "title": "Orient to the upstream catalogue",
+      "summary": "Read the scope, category list and upstream contribution link.",
+      "objective": "Understand that this fork organizes pointers to independently maintained resources.",
+      "checkpoint": "Keep mikecroucher/awesome-MATLAB visible as upstream; preserve the original authors and license.",
+      "level": "Foundation",
+      "tags": [
+        "foundations",
+        "contribution"
+      ],
+      "source_paths": [
+        "README.md",
+        "Contributing.md"
+      ],
+      "source_urls": [
+        "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/9b402cc7a0330e1a88ad177e338d1c67264b27e5/README.md",
+        "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/9b402cc7a0330e1a88ad177e338d1c67264b27e5/Contributing.md"
+      ],
+      "parameters": [],
+      "command": null,
+      "native_id": null,
+      "native_route": null,
+      "execution_status": "source-linked guide; no execution by this dashboard"
+    },
+    {
+      "id": "path-02",
+      "title": "Choose a MATLAB learning route",
+      "summary": "Inspect Learning MATLAB, MATLAB-like environments and the resource categories.",
+      "objective": "Find a resource appropriate to experience level and environment.",
+      "checkpoint": "Locate MATLAB Onramp or a comparable listed learning source; check its own prerequisites and terms separately.",
+      "level": "Foundation",
+      "tags": [
+        "foundations",
+        "contribution"
+      ],
+      "source_paths": [
+        "README.md"
+      ],
+      "source_urls": [
+        "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/9b402cc7a0330e1a88ad177e338d1c67264b27e5/README.md"
+      ],
+      "parameters": [],
+      "command": null,
+      "native_id": null,
+      "native_route": null,
+      "execution_status": "source-linked guide; no execution by this dashboard"
+    },
+    {
+      "id": "path-03",
+      "title": "Evaluate a toolbox or plotting resource",
+      "summary": "Compare the relevant category entry, description and linked project.",
+      "objective": "Choose resources by task and declared capabilities rather than badge count.",
+      "checkpoint": "Verify the destination and its own license/support requirements before adoption; listed resources were not installed in this audit.",
+      "level": "Applied",
+      "tags": [
+        "application",
+        "contribution"
+      ],
+      "source_paths": [
+        "README.md"
+      ],
+      "source_urls": [
+        "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/9b402cc7a0330e1a88ad177e338d1c67264b27e5/README.md"
+      ],
+      "parameters": [],
+      "command": null,
+      "native_id": null,
+      "native_route": null,
+      "execution_status": "source-linked guide; no execution by this dashboard"
+    },
+    {
+      "id": "path-04",
+      "title": "Prepare a focused catalogue contribution",
+      "summary": "Follow upstream style and duplicate-check guidance.",
+      "objective": "Draft one relevant resource addition with attribution and a concise description.",
+      "checkpoint": "One link per proposed PR, alphabetic ordering, sentence-case description and upstream destination; no PR was submitted.",
+      "level": "Applied",
+      "tags": [
+        "application",
+        "contribution"
+      ],
+      "source_paths": [
+        "Contributing.md",
+        "README.md",
+        "license.md"
+      ],
+      "source_urls": [
+        "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/9b402cc7a0330e1a88ad177e338d1c67264b27e5/Contributing.md",
+        "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/9b402cc7a0330e1a88ad177e338d1c67264b27e5/README.md",
+        "https://github.com/mohammadrezwankhan/awesome-MATLAB/blob/9b402cc7a0330e1a88ad177e338d1c67264b27e5/license.md"
+      ],
+      "parameters": [],
+      "command": null,
+      "native_id": null,
+      "native_route": null,
+      "execution_status": "source-linked guide; no execution by this dashboard"
+    }
+  ]
+}
