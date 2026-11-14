@@ -1,4 +1,4 @@
-![MATLAB Tool Discovery Lab: original vector system illustration](assets/hero-25d.svg)
+![MATLAB Tool Discovery Lab: original vector system illustration](assets/brand-uniformity/hero-25d.svg)
 
 A forked resource directory for MATLAB software, toolboxes, and learning materials. A second-order response explorer connects model behavior to tool-selection questions.
 
