@@ -360,7 +360,7 @@ Where to discover new MATLAB resources.
 - [Lanczos Algorithm for SVD](http://bickson.blogspot.de/2011/10/lanczos-algorithm-for-svd-singule-value.html) - MATLAB Code
 - [Jie Chen's Software](https://jiechenjiechen.github.io/software/) - Collection of companion codes (mostly MATLAB).
 - [SSP RK](http://sspsite.org/matlab_scripts.html) - Strong Stability Preserving Runge-Kutta Codes.
-- [BV78](http://faculty.smu.edu/shampine/current.html) - Shampine's Adaptive Block Vectorized Runge-Kutta 7-8.
+- [BV78](https://www.mathworks.com/matlabcentral/fileexchange/55014-a-matlab-implementation-of-the-bv78-ode-solver) - David Eagle's MATLAB implementation of Shampine's adaptive block vectorized Runge-Kutta 7-8 algorithm.
 - [MATLAB Style Guidelines 2.0](http://www.datatool.com/downloads/MatlabStyle2%20book.pdf) - by R. Johnson.
 - [flamegraph](https://git.io/flamegraph) - Flame graph visualization for Octave's profiler output.
 - [mlintall](https://www.mathworks.com/matlabcentral/fileexchange/23786-recursive-mlint) - Recursive `mlint`
