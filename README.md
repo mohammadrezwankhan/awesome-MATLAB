@@ -353,7 +353,7 @@ Where to discover new MATLAB resources.
 
 ## Tips and Tricks
 
-- [Advanced Programming Techniques in MATLAB](https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/campaigns/portals/files/intel/may-12-2015-advanced-matlab.pdf) - Slides by Loren Shure.
+- [Advanced Programming Techniques in MATLAB](https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/images/events/matlabexpo/cn/2017/ltc-4-advanced-programming.pdf) - Loren Shure's MATLAB EXPO 2017 slides, an alternative to the unavailable 2015 deck.
 - [Guidelines for writing clean and fast code in MATLAB](http://www.mathworks.com/matlabcentral/fileexchange/22943-guidelines-for-writing-clean-and-fast-code-in-matlab) - A guide with best practices in MATLAB® programming to which anybody can [contribute](https://github.com/nschloe/matlab-guidelines).
 - [Octave and MATLAB Snippets](https://git.io/mtips) - Collection of code snippets.
 - [knkutils](https://github.com/kendrickkay/knkutils) - MATLAB utility functions written by Kendrick Kay.
