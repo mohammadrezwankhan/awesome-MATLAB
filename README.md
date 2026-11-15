@@ -98,7 +98,7 @@ High quality commercial toolboxes from organisations other than MathWorks.
 
 - [FEM Operations Toolbox](https://www.andata.at/en/fem-operations-toolbox.html)  - From ANDATA. The FEM Operations Toolbox provides functions for the evaluation and analysis of the results of numerical simulations created with the finite element method (FEM).
 - [Multiprecision Toolbox for MATLAB](http://www.advanpix.com/) - This toolbox equips MATLAB with a new multiple precision floating-point numeric type and an extensive set of mathematical functions that are capable of computations with arbitrary precision.
-- [MOSEK Optimization Tools](https://www.mosek.com) - The [MOSEK tools](https://mosek.com/resources/downloads) provide access to the powerful MOSEK optimization solvers from inside the MATLAB environment either by a classical [Toolobx](http://docs.mosek.com/7.1/tools/index.html) or by the modern object-oriented API [Fusion](http://docs.mosek.com/7.1/matlabfusion/index.html).
+- [MOSEK Optimization Tools](https://www.mosek.com) - The [MOSEK tools](https://www.mosek.com/downloads/) provide access to the powerful MOSEK optimization solvers from inside the MATLAB environment either by a classical [Toolobx](http://docs.mosek.com/7.1/tools/index.html) or by the modern object-oriented API [Fusion](http://docs.mosek.com/7.1/matlabfusion/index.html).
 - [FEATool Multiphysics](http://www.precisesimulation.com) - Finite Element FEM Simulation toolbox for Matlab and Octave featuring an easy to use GUI, integrated CAD, geometry, grid generation, solvers, and postprocessing functionality.
 
 ## Artificial Intelligence and Machine Learning
@@ -358,7 +358,7 @@ Where to discover new MATLAB resources.
 - [Octave and MATLAB Snippets](https://git.io/mtips) - Collection of code snippets.
 - [knkutils](https://github.com/kendrickkay/knkutils) - MATLAB utility functions written by Kendrick Kay.
 - [Lanczos Algorithm for SVD](http://bickson.blogspot.de/2011/10/lanczos-algorithm-for-svd-singule-value.html) - MATLAB Code
-- [Jie Chen's Software](https://jie-chen-ibm.appspot.com/software.html) - Collection of companion codes (mostly MATLAB).
+- [Jie Chen's Software](https://jiechenjiechen.github.io/software/) - Collection of companion codes (mostly MATLAB).
 - [SSP RK](http://sspsite.org/matlab_scripts.html) - Strong Stability Preserving Runge-Kutta Codes.
 - [BV78](http://faculty.smu.edu/shampine/current.html) - Shampine's Adaptive Block Vectorized Runge-Kutta 7-8.
 - [MATLAB Style Guidelines 2.0](http://www.datatool.com/downloads/MatlabStyle2%20book.pdf) - by R. Johnson.
