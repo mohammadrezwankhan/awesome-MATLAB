@@ -193,7 +193,7 @@ Toolboxes for managing data.
 ## Learning MATLAB
 
 - [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) - Start here if you've never used MATLAB before. 2 hour interactive intro from MathWorks. Free for all.
-- [AI-assisted MATLAB Programming with ChatGPT](https://www.coursera.org/learn/matlab-programming-with-chatgpt) - A Coursera course showing how to use ChatGPT to help you program in MATLAB
+- AI-assisted MATLAB Programming with ChatGPT - A historical Coursera course; its provider announced closure to new enrollments on 8 November 2026. [Vanderbilt course announcement](https://engineering.vanderbilt.edu/2025/03/26/new-course-unlocks-the-power-of-generative-ai-for-matlab-programming/).
 - [Software Carpentry lessons in MATLAB](http://swcarpentry.github.io/matlab-novice-inflammation/) - Teaching basic lab skills for research computing.
 - [Control Tutorials for MATLAB and Simulink](http://ctms.engin.umich.edu/CTMS/index.php?aux=Home) - This site contains quite a bit control theory, some practical applications and how to implement these in MATLAB and SimuLink.
 - [Rosetta Code (MATLAB category)](http://rosettacode.org/wiki/Category:MATLAB) - Rosetta Code is a community comparing algorithms in different languages.
