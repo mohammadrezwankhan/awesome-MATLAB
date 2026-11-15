@@ -225,14 +225,14 @@ Toolboxes for managing data.
 High quality free toolboxes in subject areas that don't yet have their own section.
 
 - [Chebfun](http://www.chebfun.org/) - Chebfun is an open-source package for computing with functions to about 15-digit accuracy.
-- [IFISS](http://www.maths.manchester.ac.uk/~djs/ifiss/) - IFISS is a graphical package for the interactive numerical study of incompressible flow problems which can be run under MATLAB or Octave.
+- [IFISS](https://personalpages.manchester.ac.uk/staff/david.silvester/ifiss/) - IFISS is a graphical package for the interactive numerical study of incompressible flow problems which can be run under MATLAB or Octave.
 - [Wavelab](http://statweb.stanford.edu/~wavelab/Wavelab_850/index_wavelab850.html) - WaveLab is a collection of MATLAB functions related to wavelet analysis.
 - [MPITB](http://www.ugr.es/~jfernand/mpitb_eng.html) - MPI Toolbox for Matlab ([MPI Toolbox for Octave](http://www.ugr.es/~jfernand/mpitb.html)).
 - [Lightspeed](http://research.microsoft.com/en-us/um/people/minka/software/lightspeed/) - Microsoft Lightspeed Utilities Toolbox.
 - [bct](http://www.brain-connectivity-toolbox.net/) - Brain Connectivity Toolbox.
 - [UQLab](http://www.uqlab.com/) - The Framework for Uncertainty Quantification.
 - [Octave Forge](http://octave.sourceforge.net/) - Extra packages for GNU Octave.
-- [Matrix Computation Toolbox](http://www.maths.manchester.ac.uk/~higham/mctoolbox/) - For constructing test matrices, computing matrix factorizations, visualizing matrices, and carrying out direct search optimization.
+- [Matrix Computation Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/2360-the-matrix-computation-toolbox) - For constructing test matrices, computing matrix factorizations, visualizing matrices, and carrying out direct search optimization.
 - [GRANSO](http://timmitchell.com/software/GRANSO/index.html) - GRadient-based Algorithm for Non-Smooth Optimization.
 - [ROSTAPACK](http://www.timmitchell.com/software/ROSTAPACK/index.html) - RObust STAbility PACKage.
 - [MOCluGen](https://github.com/clugen/MOCluGen) - Multidimensional cluster generation in MATLAB/Octave.
