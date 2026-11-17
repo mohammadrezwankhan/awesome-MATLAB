@@ -98,7 +98,7 @@ High quality commercial toolboxes from organisations other than MathWorks.
 
 - [FEM Operations Toolbox](https://www.andata.at/en/fem-operations-toolbox.html)  - From ANDATA. The FEM Operations Toolbox provides functions for the evaluation and analysis of the results of numerical simulations created with the finite element method (FEM).
 - [Multiprecision Toolbox for MATLAB](http://www.advanpix.com/) - This toolbox equips MATLAB with a new multiple precision floating-point numeric type and an extensive set of mathematical functions that are capable of computations with arbitrary precision.
-- [MOSEK Optimization Tools](https://www.mosek.com) - The [MOSEK tools](https://mosek.com/resources/downloads) provide access to the powerful MOSEK optimization solvers from inside the MATLAB environment either by a classical [Toolobx](http://docs.mosek.com/7.1/tools/index.html) or by the modern object-oriented API [Fusion](http://docs.mosek.com/7.1/matlabfusion/index.html).
+- [MOSEK Optimization Tools](https://www.mosek.com) - The [MOSEK tools](https://www.mosek.com/downloads/) provide access to the powerful MOSEK optimization solvers from inside the MATLAB environment either by a classical [Toolobx](http://docs.mosek.com/7.1/tools/index.html) or by the modern object-oriented API [Fusion](http://docs.mosek.com/7.1/matlabfusion/index.html).
 - [FEATool Multiphysics](http://www.precisesimulation.com) - Finite Element FEM Simulation toolbox for Matlab and Octave featuring an easy to use GUI, integrated CAD, geometry, grid generation, solvers, and postprocessing functionality.
 
 ## Artificial Intelligence and Machine Learning
@@ -193,7 +193,7 @@ Toolboxes for managing data.
 ## Learning MATLAB
 
 - [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) - Start here if you've never used MATLAB before. 2 hour interactive intro from MathWorks. Free for all.
-- [AI-assisted MATLAB Programming with ChatGPT](https://www.coursera.org/learn/matlab-programming-with-chatgpt) - A Coursera course showing how to use ChatGPT to help you program in MATLAB
+- AI-assisted MATLAB Programming with ChatGPT - A historical Coursera course; its provider announced closure to new enrollments on 8 November 2026. [Vanderbilt course announcement](https://engineering.vanderbilt.edu/2025/03/26/new-course-unlocks-the-power-of-generative-ai-for-matlab-programming/).
 - [Software Carpentry lessons in MATLAB](http://swcarpentry.github.io/matlab-novice-inflammation/) - Teaching basic lab skills for research computing.
 - [Control Tutorials for MATLAB and Simulink](http://ctms.engin.umich.edu/CTMS/index.php?aux=Home) - This site contains quite a bit control theory, some practical applications and how to implement these in MATLAB and SimuLink.
 - [Rosetta Code (MATLAB category)](http://rosettacode.org/wiki/Category:MATLAB) - Rosetta Code is a community comparing algorithms in different languages.
@@ -353,14 +353,14 @@ Where to discover new MATLAB resources.
 
 ## Tips and Tricks
 
-- [Advanced Programming Techniques in MATLAB](https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/campaigns/portals/files/intel/may-12-2015-advanced-matlab.pdf) - Slides by Loren Shure.
+- [Advanced Programming Techniques in MATLAB](https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/images/events/matlabexpo/cn/2017/ltc-4-advanced-programming.pdf) - Loren Shure's MATLAB EXPO 2017 slides, an alternative to the unavailable 2015 deck.
 - [Guidelines for writing clean and fast code in MATLAB](http://www.mathworks.com/matlabcentral/fileexchange/22943-guidelines-for-writing-clean-and-fast-code-in-matlab) - A guide with best practices in MATLAB® programming to which anybody can [contribute](https://github.com/nschloe/matlab-guidelines).
 - [Octave and MATLAB Snippets](https://git.io/mtips) - Collection of code snippets.
 - [knkutils](https://github.com/kendrickkay/knkutils) - MATLAB utility functions written by Kendrick Kay.
 - [Lanczos Algorithm for SVD](http://bickson.blogspot.de/2011/10/lanczos-algorithm-for-svd-singule-value.html) - MATLAB Code
-- [Jie Chen's Software](https://jie-chen-ibm.appspot.com/software.html) - Collection of companion codes (mostly MATLAB).
+- [Jie Chen's Software](https://jiechenjiechen.github.io/software/) - Collection of companion codes (mostly MATLAB).
 - [SSP RK](http://sspsite.org/matlab_scripts.html) - Strong Stability Preserving Runge-Kutta Codes.
-- [BV78](http://faculty.smu.edu/shampine/current.html) - Shampine's Adaptive Block Vectorized Runge-Kutta 7-8.
+- [BV78](https://www.mathworks.com/matlabcentral/fileexchange/55014-a-matlab-implementation-of-the-bv78-ode-solver) - David Eagle's MATLAB implementation of Shampine's adaptive block vectorized Runge-Kutta 7-8 algorithm.
 - [MATLAB Style Guidelines 2.0](http://www.datatool.com/downloads/MatlabStyle2%20book.pdf) - by R. Johnson.
 - [flamegraph](https://git.io/flamegraph) - Flame graph visualization for Octave's profiler output.
 - [mlintall](https://www.mathworks.com/matlabcentral/fileexchange/23786-recursive-mlint) - Recursive `mlint`
