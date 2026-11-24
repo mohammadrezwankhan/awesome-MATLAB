@@ -163,7 +163,7 @@ Toolboxes for managing data.
 - [CPU Info](https://de.mathworks.com/matlabcentral/fileexchange/33155-cpu-info) - Read various bits of information about the CPU and operating system.
 - [MATLAB Mobile](http://uk.mathworks.com/products/matlab-mobile/) - MATLAB on Android and iOS mobile phones and tablets.
 - [Raspberry Pi Support from MATLAB](http://uk.mathworks.com/hardware-support/raspberry-pi-matlab.html) - Acquire sensor and image data from your connected Raspberry Pi.
-- [Rasperry Pi IO Support for Octave](http://github.com/octave-de/octave-rpi-gpio) - Control Rasperry Pi GPIO Port from Octave.
+- [Rasperry Pi IO Support for Octave](https://github.com/gnu-octave/octave-rpi-gpio) - Control Rasperry Pi GPIO Port from Octave.
 
 ## Image Processing and Computer Vision
 
@@ -188,7 +188,7 @@ Toolboxes for managing data.
 
 - [MATLAB QuickLook](https://github.com/jaketmp/matlab-quicklook) - QuickLook preview generator for MAT files. This shows the contents of your MAT files in Finder. The binary is only compatible with 64 bit OS X.
 - [MATLAB-git](https://github.com/manur/MATLAB-git) - A thin wrapper to call `git` from within a MATLAB console.
-- [JSONlab](https://github.com/fangq/jsonlab) - Toolbox to encode/decode [JSON](http://www.json.org) data files from within MATLAB and Octave.
+- [JSONlab](https://github.com/NeuroJSON/jsonlab) - Toolbox to encode/decode [JSON](http://www.json.org) data files from within MATLAB and Octave.
 
 ## Learning MATLAB
 
@@ -208,7 +208,7 @@ Toolboxes for managing data.
 
 *Third-party tools to produce publication quality figures.*
 
-- [antijet](https://git.io/antijet) - An alternative to the problematic "jet"-colormap.
+- [antijet](https://gist.github.com/gramian/67585e5f2e9a294c3aa6) - An alternative to the problematic "jet"-colormap.
 - [export_fig](https://github.com/altmany/export_fig) - produces better vector/bitmap graphics than standalone MATLAB®.
 - [gramm](https://uk.mathworks.com/matlabcentral/fileexchange/54465-gramm-complete-data-visualization-toolbox-ggplot2-r-like) - GRAMmar of graphics for Matlab.
 - [hq-matlab-figs](http://dgleich.github.io/hq-matlab-figs/) - Creating high-quality graphics in MATLAB for papers and presentations.
@@ -228,10 +228,10 @@ High quality free toolboxes in subject areas that don't yet have their own secti
 - [IFISS](https://personalpages.manchester.ac.uk/staff/david.silvester/ifiss/) - IFISS is a graphical package for the interactive numerical study of incompressible flow problems which can be run under MATLAB or Octave.
 - [Wavelab](http://statweb.stanford.edu/~wavelab/Wavelab_850/index_wavelab850.html) - WaveLab is a collection of MATLAB functions related to wavelet analysis.
 - [MPITB](http://www.ugr.es/~jfernand/mpitb_eng.html) - MPI Toolbox for Matlab ([MPI Toolbox for Octave](http://www.ugr.es/~jfernand/mpitb.html)).
-- [Lightspeed](http://research.microsoft.com/en-us/um/people/minka/software/lightspeed/) - Microsoft Lightspeed Utilities Toolbox.
-- [bct](http://www.brain-connectivity-toolbox.net/) - Brain Connectivity Toolbox.
+- [Lightspeed](https://github.com/tminka/lightspeed) - Microsoft Lightspeed Utilities Toolbox.
+- [bct](https://sites.google.com/site/bctnet/) - Brain Connectivity Toolbox.
 - [UQLab](http://www.uqlab.com/) - The Framework for Uncertainty Quantification.
-- [Octave Forge](http://octave.sourceforge.net/) - Extra packages for GNU Octave.
+- [Octave Forge](https://octave.sourceforge.io/) - Archived package collection. See [Octave Packages](https://gnu-octave.github.io/packages/) for the current index.
 - [Matrix Computation Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/2360-the-matrix-computation-toolbox) - For constructing test matrices, computing matrix factorizations, visualizing matrices, and carrying out direct search optimization.
 - [GRANSO](http://timmitchell.com/software/GRANSO/index.html) - GRadient-based Algorithm for Non-Smooth Optimization.
 - [ROSTAPACK](http://www.timmitchell.com/software/ROSTAPACK/index.html) - RObust STAbility PACKage.
@@ -241,11 +241,11 @@ High quality free toolboxes in subject areas that don't yet have their own secti
 
 - [drtoolbox](https://lvdmaaten.github.io/drtoolbox/) - Matlab Toolbox for Dimensionality Reduction.
 - [DMD Book](http://dmdbook.com/CODE.zip) - Dynamic Mode Decomposition Book Companion Code.
-- [emgr](http://gramian.de) - EMpirical GRamian framework for model reduction of input-output systems.
-- [hapod](http://git.io/hapod) - Hierarchical Approximate Proper Orthogonal Decomposition.
+- [emgr](https://github.com/gramian/emgr) - EMpirical GRamian framework for model reduction of input-output systems.
+- [hapod](https://github.com/gramian/hapod) - Hierarchical Approximate Proper Orthogonal Decomposition.
 - [MOR Toolbox](https://mordigitalsystems.fr/en/) - Model Reduction Toolbox for MATLAB (formerly: [MORE model reduction toolbox](http://w3.onera.fr/more/) - a MOdel REduction Toolbox).
 - [KerMor](http://www.ians.uni-stuttgart.de/MoRePaS/software/kermor/) - Model order reduction for nonlinear dynamical systems and nonlinear approximation.
-- [morgen](https://git.io/morgen) - Model Order Reduction for Gas and Energy Networks.
+- [morgen](https://github.com/mpimd-csc/morgen) - Model Order Reduction for Gas and Energy Networks.
 - [MORLAB](http://www.mpi-magdeburg.mpg.de/1657682/morlab) - Model Order Reduction Laboratory.
 - [MORPACK](http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_maschinenwesen/ifkm/dmt/forschung/forschungsthemen/morpack) - Model Order Reduction PACKage.
 - [MESS](http://www.mpi-magdeburg.mpg.de/projects/mess) - The Matrix Equations Sparse Solvers library, is the successor to the Lyapack Toolbox.
@@ -312,7 +312,6 @@ Where to discover new MATLAB resources.
 - [Undocumented MATLAB](http://undocumentedmatlab.com) - Yair Altman blogs about the hidden underbelly of MATLAB®. This is the place to be for discovering new and awesome features.
 - [WalkingRandomly](http://www.walkingrandomly.com/?cat=11) - The MATLAB tag of WalkingRandomly.
 - [xcorr: comp neuro](http://xcorr.net/?s=matlab) - MATLAB relevant post of XCORR.
-- [Matlab Geeks](http://matlabgeeks.com/) - Matlab Blog, Tutorials and Expertise.
 
 ## Books
 
@@ -355,14 +354,14 @@ Where to discover new MATLAB resources.
 
 - [Advanced Programming Techniques in MATLAB](https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/images/events/matlabexpo/cn/2017/ltc-4-advanced-programming.pdf) - Loren Shure's MATLAB EXPO 2017 slides, an alternative to the unavailable 2015 deck.
 - [Guidelines for writing clean and fast code in MATLAB](http://www.mathworks.com/matlabcentral/fileexchange/22943-guidelines-for-writing-clean-and-fast-code-in-matlab) - A guide with best practices in MATLAB® programming to which anybody can [contribute](https://github.com/nschloe/matlab-guidelines).
-- [Octave and MATLAB Snippets](https://git.io/mtips) - Collection of code snippets.
-- [knkutils](https://github.com/kendrickkay/knkutils) - MATLAB utility functions written by Kendrick Kay.
+- [Octave and MATLAB Snippets](https://gist.github.com/gramian/6027733) - Collection of code snippets.
+- [knkutils](https://github.com/cvnlab/knkutils) - MATLAB utility functions written by Kendrick Kay.
 - [Lanczos Algorithm for SVD](http://bickson.blogspot.de/2011/10/lanczos-algorithm-for-svd-singule-value.html) - MATLAB Code
 - [Jie Chen's Software](https://jiechenjiechen.github.io/software/) - Collection of companion codes (mostly MATLAB).
 - [SSP RK](http://sspsite.org/matlab_scripts.html) - Strong Stability Preserving Runge-Kutta Codes.
 - [BV78](https://www.mathworks.com/matlabcentral/fileexchange/55014-a-matlab-implementation-of-the-bv78-ode-solver) - David Eagle's MATLAB implementation of Shampine's adaptive block vectorized Runge-Kutta 7-8 algorithm.
 - [MATLAB Style Guidelines 2.0](http://www.datatool.com/downloads/MatlabStyle2%20book.pdf) - by R. Johnson.
-- [flamegraph](https://git.io/flamegraph) - Flame graph visualization for Octave's profiler output.
+- [flamegraph](https://gist.github.com/gramian/7807c670588d10adbfca9add73daeda2) - Flame graph visualization for Octave's profiler output.
 - [mlintall](https://www.mathworks.com/matlabcentral/fileexchange/23786-recursive-mlint) - Recursive `mlint`
 
 # Contributing
